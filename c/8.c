@@ -7,6 +7,15 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
-
+    int num;
+    int sum = 0;
+    int factorial = 1;
+    scanf("%d",&num);
+    for(int i=1;i<=num;i++){
+        sum = sum + i;
+        factorial = factorial * i;
+    }
+    printf("%d\n",sum);
+    printf("%d\n",factorial);
     return 0;
 }

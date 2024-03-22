@@ -7,6 +7,9 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
-
+    int num1, num2;
+    scanf("%d", &num1);
+    num2 = (num1/100) + ((num1%100)/10)*10 + (num1%10)*100;
+    printf("%d", num2);
     return 0;
 }
